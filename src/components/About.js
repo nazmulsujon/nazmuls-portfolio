@@ -1,5 +1,5 @@
 import React from "react";
-import { Bounce } from "react-reveal";
+import Swing from "react-reveal/Swing";
 import Fade from "react-reveal/Fade";
 
 // import img
@@ -8,11 +8,11 @@ import devCartoon from "../assets/img/dev-cartoon.png";
 const About = () => {
   return (
     <section className="section bg-tertiary" id="about">
-      <Bounce top>
+      <Swing>
         <h2 className="text text-4xl font-bold text-center mb-16">
           About <span className="text-accent">Me</span>{" "}
         </h2>
-      </Bounce>
+      </Swing>
       <div className="container mx-auto">
         <div className="flex flex-col items-center xl:flex-row gap-24">
           <Fade left>

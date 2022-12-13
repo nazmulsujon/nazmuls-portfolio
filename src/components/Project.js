@@ -4,7 +4,7 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 
 const Project = ({ item }) => {
-  const { name, image, subtitle, description, live_site, client_side } = item;
+  const { name, image, subtitle, description, live_site, github } = item;
   return (
     <Slide bottom>
       <div key={item.id} className="flex flex-col items-center text-center">
@@ -21,7 +21,7 @@ const Project = ({ item }) => {
         <p className="text-base">{description}</p>
         <div className="flex mt-3">
           <a
-            href={`${client_side}`}
+            href={`${github}`}
             className="btn btn-md bg-accent hover:bg-secondary-hover transition-all mr-10 rounded-3xl"
           >
             GitHub

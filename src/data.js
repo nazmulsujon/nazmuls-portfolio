@@ -5,6 +5,9 @@ import { FiLinkedin, FiFacebook, FiGithub, FiMail, FiMapPin } from "react-icons/
 import buysellimg1 from "./assets/img/projects/buy-and-sell.png";
 import yourmeals1 from "./assets/img/projects/your-meals.png";
 import herocoders1 from "./assets/img/projects/hero-coders.png";
+import quizstation1 from "./assets/img/projects/quiz-station.png";
+import topPlayer1 from "./assets/img/projects/top-player.png";
+import speedtype from "./assets/img/projects/speed-type7.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -65,8 +68,7 @@ export const projectsData = [
     technolozy:
       "React | React-router-dom | TailWind CSS | DaisiUI | Node.js | Express.js | MongoDb | Firebase | Varcel | React Icons | React-Hot-Toast | React-Photo-View-package | imgBB | dateFns etc",
     live_site: "https://buy-and-sell-3568b.firebaseapp.com/",
-    client_side: "https://github.com/nazmul68/buy-sell-client",
-    server_side: "https://github.com/nazmul68/buy-sell-server",
+    github: "https://github.com/nazmul68/buy-sell-client",
   },
   {
     id: "2",
@@ -78,8 +80,7 @@ export const projectsData = [
     technolozy:
       "React | React-router-dom | TailWind CSS | DaisiUI | Node.js | Express.js | MongoDb | Firebase | Varcel | React Icons | React-Hot-Toast | Sweet-alert2 | react-reveal | React-Photo-View-package | imgbb |  react-helmet etc",
     live_site: "https://your-meals-2d0c3.firebaseapp.com/",
-    client_side: "https://github.com/nazmul68/your-meals-client",
-    server_side: "https://github.com/nazmul68/your-meals-server",
+    github: "https://github.com/nazmul68/your-meals-client",
   },
   {
     id: "3",
@@ -91,8 +92,40 @@ export const projectsData = [
     technolozy:
       "React | React-router-dom | React Bootstrap | Firebase | React Icons |  React-Photo-View-package | imgBB | React pdf package etc",
     live_site: "https://hero-coders-auth.firebaseapp.com/",
-    client_side: "https://github.com/nazmul68/hero-coders-client",
-    server_side: "https://github.com/nazmul68/hero-coders-server",
+    github: "https://github.com/nazmul68/hero-coders-client",
+  },
+  {
+    id: "4",
+    image: quizstation1,
+    name: "Quiz Station",
+    subtitle: "Programming quiz practice platform",
+    description:
+      "Quiz Station is a quiz practice application whereas users can practice various Programming topics also get quiz result instantly.",
+    technolozy: "React | React-router-dom | React Bootstrap | Hero Icons | React Icons | sweetAlert2 etc",
+    live_site: "https://quiz-station09.netlify.app/",
+    github: "https://github.com/nazmulsujon/quiz-station",
+  },
+  {
+    id: "5",
+    image: topPlayer1,
+    name: "Top Player",
+    subtitle: "Players deal platform",
+    description:
+      "Top Player is a fully responsive player deal website where users can deal with maximum five players, this website is basically made with raw javascript code.",
+    technolozy: "HTMl | CSS | Bootstrap | Raw javascript | Font Awesome etc",
+    live_site: "https://top-player05.netlify.app/",
+    github: "https://github.com/nazmulsujon/top-player",
+  },
+  {
+    id: "6",
+    image: speedtype,
+    name: "Speed Typer",
+    subtitle: "Typing speed test application",
+    description:
+      "Speed Typer is a typing test application where users can test their typing speed & see their mistake results as well. This application is basically made by raw javascript code.",
+    technolozy: "HTMl | CSS | Bootstrap | Raw javascript | Font Awesome etc",
+    live_site: "https://top-player05.netlify.app/",
+    github: "https://github.com/nazmulsujon/top-player",
   },
 ];
 

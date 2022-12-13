@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import { Bounce } from "react-reveal";
+import Swing from "react-reveal/Swing";
 
 // import contact data
 import { contact } from "../data";
@@ -9,14 +9,14 @@ const Contact = () => {
   return (
     <section className="section bg-primary" id="contact">
       <div className="container mx-auto">
-        <Bounce top>
-          <div className="flex flex-col items-center text-center">
-            <h2 className="section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
+        <div className="flex flex-col items-center text-center">
+          <Swing>
+            <h2 className="section-title ">
               Contact <span className="text-accent">me</span>
             </h2>
-            <p className="subtitle">Don't hasitate to contact me</p>
-          </div>
-        </Bounce>
+          </Swing>
+          <p className="subtitle">Don't hasitate to contact me</p>
+        </div>
 
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           <Fade left>

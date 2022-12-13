@@ -1,6 +1,5 @@
 import React from "react";
-import { Bounce } from "react-reveal";
-import Zoom from "react-reveal/Zoom";
+import Swing from "react-reveal/Swing";
 import Flip from "react-reveal/Flip";
 
 // import skill data
@@ -10,11 +9,11 @@ const Skills = () => {
   return (
     <section className="bg-primary py-12">
       <div className="container mx-auto">
-        <Bounce top>
+        <Swing>
           <h2 className="text text-4xl font-bold text-center mb-16">
             Skills & <span className="text-accent">Tools</span>
           </h2>
-        </Bounce>
+        </Swing>
         <Flip bottom>
           <div className="grid grid-cols-5 gap-y-10">
             {skills.map((skill, index) => {
