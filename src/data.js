@@ -1,172 +1,93 @@
 //  icons
-import {
-  FiYoutube,
-  FiInstagram,
-  FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
-  FiMail,
-  FiMapPin,
-} from 'react-icons/fi';
-
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
-
-// projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import { FiLinkedin, FiFacebook, FiGithub, FiMail, FiMapPin } from "react-icons/fi";
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
-
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import SkillImg1 from "./assets/img/skills/html5.png";
+import SkillImg2 from "./assets/img/skills/css3.png";
+import SkillImg3 from "./assets/img/skills/js.png";
+import SkillImg4 from "./assets/img/skills/reactjs.png";
+import SkillImg5 from "./assets/img/skills/nodejs.png";
+import SkillImg6 from "./assets/img/skills/expressjs.png";
+import SkillImg7 from "./assets/img/skills/mongodb.png";
+import SkillImg8 from "./assets/img/skills/firebase.png";
+import SkillImg9 from "./assets/img/skills/github.png";
+import SkillImg10 from "./assets/img/skills/figma.png";
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: "home",
+    href: "home",
   },
   {
-    name: 'about',
-    href: 'about',
+    name: "about",
+    href: "about",
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: "portfolio",
+    href: "portfolio",
   },
   {
-    name: 'services',
-    href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
-  {
-    name: 'contact',
-    href: 'contact',
+    name: "contact",
+    href: "contact",
   },
 ];
 
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/nazmul-sujon/",
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiFacebook />,
+    href: "https://www.facebook.com/profile.php?id=100017560637039",
   },
   {
     icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
-    href: '',
-  },
-];
-
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
+    href: "https://github.com/nazmul68",
   },
 ];
 
 // projects
 export const projectsData = [
   {
-    id: '1',
-    image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    id: "1",
+    image: "https://i.ibb.co/5jFDrmj/buy-and-sell.png",
+    name: "Buy & Sell",
+    subtitle: "Product resale website",
+    description: "A full-stack responsive product resale website. Different Dashboard for Admin, Seller, and Buyer.",
+    technolozy:
+      "React | React-router-dom | TailWind CSS | DaisiUI | Node.js | Express.js | MongoDb | Firebase | Varcel | React Icons | React-Hot-Toast | React-Photo-View-package | imgBB | dateFns etc",
+    live_site: "https://buy-and-sell-3568b.firebaseapp.com/",
+    client_side: "https://github.com/nazmul68/buy-sell-client",
+    server_side: "https://github.com/nazmul68/buy-sell-server",
   },
   {
-    id: '2',
-    image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    id: "2",
+    image: "https://i.ibb.co/0GQXFbL/your-meals.png",
+    name: "Your Meals",
+    subtitle: "Food service & review website",
+    description:
+      "A full-stack responsive food service website. Users can request a service, also leave a review about food.",
+    technolozy:
+      "React | React-router-dom | TailWind CSS | DaisiUI | Node.js | Express.js | MongoDb | Firebase | Varcel | React Icons | React-Hot-Toast | Sweet-alert2 | react-reveal | React-Photo-View-package | imgbb |  react-helmet etc",
+    live_site: "https://your-meals-2d0c3.firebaseapp.com/",
+    client_side: "https://github.com/nazmul68/your-meals-client",
+    server_side: "https://github.com/nazmul68/your-meals-server",
   },
   {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
-];
-
-// projects
-export const projectsNav = [
-  {
-    name: 'all',
-  },
-  {
-    name: 'UI/UX Design',
-  },
-  {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
+    id: "3",
+    image: "https://i.ibb.co/TMxrKL4/hero-coders.png",
+    name: "Hero Coders",
+    subtitle: "Learning platform website",
+    description:
+      "Hero Coders is a Learning application & whereas users can get various online courses also take premium access of any course.",
+    technolozy:
+      "React | React-router-dom | React Bootstrap | Firebase | React Icons |  React-Photo-View-package | imgBB | React pdf package etc",
+    live_site: "https://hero-coders-auth.firebaseapp.com/",
+    client_side: "https://github.com/nazmul68/hero-coders-client",
+    server_side: "https://github.com/nazmul68/hero-coders-server",
   },
 ];
 
@@ -196,58 +117,11 @@ export const skills = [
   {
     image: SkillImg8,
   },
-];
-
-// services
-export const services = [
   {
-    icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    image: SkillImg9,
   },
   {
-    icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiPenTool />,
-    name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    image: SkillImg10,
   },
 ];
 
@@ -255,14 +129,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: "Have a question?",
+    subtitle: "I am here to help you.",
+    description: "Email me at sujon686500@gmail.com",
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: "Current Location",
+    subtitle: "Dhaka, Bangladesh",
+    description: "Serving clients worldwide",
   },
 ];

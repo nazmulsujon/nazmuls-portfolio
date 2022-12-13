@@ -1,31 +1,33 @@
-import React from 'react';
+import React from "react";
 
 // import social data
-import { social } from '../data';
-
-// import logo
-import Logo from '../assets/img/logo.svg';
+import { social } from "../data";
 
 const Footer = () => {
   return (
-    <footer className='bg-tertiary py-12'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
-          <div className='flex space-x-6 items-center justify-center'>
+    <footer className="bg-tertiary py-12">
+      <div className="container mx-auto">
+        <div className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between">
+          <div className="flex space-x-6 items-center justify-center">
             {social.map((item, index) => {
               const { href, icon } = item;
               return (
-                <a className='text-accent text-base' href={href} key={index}>
-                  {icon}
-                </a>
+                <div>
+                  <a className="text-accent text-base" href={href} key={index}>
+                    {icon}
+                  </a>
+                </div>
               );
             })}
+            <div>
+              <a href="#" className="font-bold text-xl italic">
+                Nazmul <span className="text-accent">Hoque</span>
+              </a>
+            </div>
           </div>
-          <div>
-            <img src={Logo} alt='' />
-          </div>
-          <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+
+          <p className="text-paragraph opacity-80 text-[15px]">
+            &copy; 2022 Dhaka, Bangladesh. All rights reserved by Nazmul Hoque.
           </p>
         </div>
       </div>

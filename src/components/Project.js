@@ -1,18 +1,37 @@
-import React from 'react';
+import React from "react";
+import Slide from "react-reveal/Slide";
+import { PhotoProvider, PhotoView } from "react-photo-view";
+import "react-photo-view/dist/react-photo-view.css";
 
 const Project = ({ item }) => {
+  const { name, image, subtitle, description, live_site, client_side } = item;
   return (
-    <div key={item.id} className='flex flex-col items-center text-center'>
-      <div className='mb-8'>
-        <img className='rounded-2xl' src={item.image} alt='' />
+    <Slide bottom>
+      <div key={item.id} className="flex flex-col items-center text-center">
+        <div className="mb-8">
+          <PhotoProvider>
+            <PhotoView src={image}>
+              <img src={image} alt="" className="w-96 h-96 rounded-xl" />
+            </PhotoView>
+          </PhotoProvider>
+        </div>
+
+        <h3 className="text-2xl font-semibold capitalize mb-3">{name}</h3>
+        <p className="capitalize text-accent text-sm mb-3">{subtitle}</p>
+        <p className="text-base">{description}</p>
+        <div className="flex mt-3">
+          <a
+            href={`${client_side}`}
+            className="btn btn-md bg-accent hover:bg-secondary-hover transition-all mr-10 rounded-3xl"
+          >
+            GitHub
+          </a>
+          <a href={`${live_site}`} className="btn btn-md bg-accent hover:bg-secondary-hover transition-all rounded-3xl">
+            Live Site
+          </a>
+        </div>
       </div>
-      <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
-      <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
-      <p className='text-base max-w-md'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
-        obcaecati ipsam.
-      </p>
-    </div>
+    </Slide>
   );
 };
 
