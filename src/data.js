@@ -1,6 +1,11 @@
 //  icons
 import { FiLinkedin, FiFacebook, FiGithub, FiMail, FiMapPin } from "react-icons/fi";
 
+//project images
+import buysellimg1 from "./assets/img/projects/buy-and-sell.png";
+import yourmeals1 from "./assets/img/projects/your-meals.png";
+import herocoders1 from "./assets/img/projects/hero-coders.png";
+
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
 import SkillImg2 from "./assets/img/skills/css3.png";
@@ -41,11 +46,11 @@ export const social = [
   },
   {
     icon: <FiFacebook />,
-    href: "https://www.facebook.com/profile.php?id=100017560637039",
+    href: "https://www.facebook.com/nazmulsujon404",
   },
   {
     icon: <FiGithub />,
-    href: "https://github.com/nazmul68",
+    href: "https://github.com/nazmulsujon",
   },
 ];
 
@@ -53,7 +58,7 @@ export const social = [
 export const projectsData = [
   {
     id: "1",
-    image: "https://i.ibb.co/5jFDrmj/buy-and-sell.png",
+    image: buysellimg1,
     name: "Buy & Sell",
     subtitle: "Product resale website",
     description: "A full-stack responsive product resale website. Different Dashboard for Admin, Seller, and Buyer.",
@@ -65,7 +70,7 @@ export const projectsData = [
   },
   {
     id: "2",
-    image: "https://i.ibb.co/0GQXFbL/your-meals.png",
+    image: yourmeals1,
     name: "Your Meals",
     subtitle: "Food service & review website",
     description:
@@ -78,7 +83,7 @@ export const projectsData = [
   },
   {
     id: "3",
-    image: "https://i.ibb.co/TMxrKL4/hero-coders.png",
+    image: herocoders1,
     name: "Hero Coders",
     subtitle: "Learning platform website",
     description:

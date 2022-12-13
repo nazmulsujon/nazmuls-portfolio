@@ -39,14 +39,20 @@ const Contact = () => {
             </div>
           </Fade>
           <Fade right>
-            <form className="space-y-8 w-full max-w-[780px]">
+            <form
+              className="space-y-8 w-full max-w-[780px]"
+              action="https://formsubmit.co/sujon686500@gmail.com"
+              method="POST"
+            >
               <div className="flex gap-8">
-                <input className="input" type="text" placeholder="Your name" />
-                <input className="input" type="email" placeholder="Your email" />
+                <input className="input" type="text" name="name" placeholder="Your name" />
+                <input className="input" type="email" name="email" placeholder="Your email" />
               </div>
-              <input className="input" type="text" placeholder="Subject" />
-              <textarea className="textarea" placeholder="Your message"></textarea>
-              <button className="btn btn-lg bg-accent hover:bg-secondary-hover">Send message</button>
+              <input className="input" type="text" name="subject" placeholder="Subject" />
+              <textarea className="textarea" name="message" placeholder="Your message"></textarea>
+              <button type="submit" className="btn btn-lg bg-accent hover:bg-secondary-hover">
+                Send message
+              </button>
             </form>
           </Fade>
         </div>
