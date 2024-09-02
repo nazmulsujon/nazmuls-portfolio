@@ -1,1 +1,1 @@
-live site : https://nazmuls-portfolio.netlify.app/
+live site : https://nazmuls-portfolio.netlify.app
