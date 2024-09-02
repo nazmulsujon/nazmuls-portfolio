@@ -49,7 +49,10 @@ const Banner = () => {
 
             <div className="flex">
               <button className="btn btn-md bg-accent  hover:bg-secondary-hover md:btn-lg transition-all mt-10 mr-10">
-                <a href="my-resume.pdf" download="my-resume.pdf">
+                <a
+                  href="Nazmul_Hoque_Resume.pdf"
+                  download="Nazmul_Hoque_Resume.pdf"
+                >
                   Get resume
                 </a>
               </button>
