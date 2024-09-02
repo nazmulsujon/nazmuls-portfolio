@@ -1,6 +1,5 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-
 import developerImg from "../assets/img/me.webp";
 
 const Banner = () => {
@@ -48,7 +47,7 @@ const Banner = () => {
             </h2>
 
             <div className="flex">
-              <button className="btn btn-md bg-accent  hover:bg-secondary-hover md:btn-lg transition-all mt-10 mr-10">
+              <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all mt-10 mr-10">
                 <a
                   href="Nazmul_Hoque_Resume.pdf"
                   download="Nazmul_Hoque_Resume.pdf"
