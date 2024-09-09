@@ -43,7 +43,7 @@ const Banner = () => {
                   deleteSpeed={50}
                   delaySpeed={1000}
                 />
-              </span>{" "}
+              </span>
             </h2>
 
             <div className="flex">

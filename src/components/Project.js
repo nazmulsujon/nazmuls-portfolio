@@ -26,7 +26,10 @@ const Project = ({ item }) => {
           >
             GitHub
           </a>
-          <a href={`${live_site}`} className="btn btn-md bg-accent hover:bg-secondary-hover transition-all rounded-3xl">
+          <a
+            href={`${live_site}`}
+            className="btn btn-md bg-accent hover:bg-secondary-hover transition-all rounded-3xl"
+          >
             Live Site
           </a>
         </div>
