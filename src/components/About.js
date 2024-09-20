@@ -18,19 +18,29 @@ const About = () => {
           <Fade left>
             <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
               <div className="flex flex-col">
-                <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 ">Nazmul Hoque</h2>
+                <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 ">
+                  Nazmul Hoque
+                </h2>
                 <p className="mb-4 text-accent">Junior Web Developer</p>
                 <hr className="mb-8 opacity-5" />
-                <p className="mb-8 text-left">
-                  Hello! I'm Nazmul, a web developer with a good level of expertise in Front-End Web Development. I'm
-                  currently studying at Alhaz Mokbul Hossain University College a degree BSc Engineering in Computer
-                  Science & Engineering. I'm a tech lover and like to learn new things about programming and web
-                  development. I'm passionate about MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack web development.
+                <p className="mb-8 text-left text-balance">
+                  Hello! I'm Nazmul, a web developer with nearly one year of
+                  professional experience in Front-End Development. I have
+                  worked as a Frontend Engineer Intern at Expatal and as a MERN
+                  Stack Developer at Bright Future. Currently, I am working as a
+                  Frontend Developer at Kalbela.
                   <br />
-                  <br />I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and
-                  personal skills in Web Development. Also eagerly wants to serve a professional organization to the
-                  best of my knowledge with true dedication, hard work, and commitment. I am down to earth honest,
-                  confident, fun loving and caring as well.
+                  I'm pursuing a BSc in Computer Science & Engineering at Alhaz
+                  Mokbul Hossain University College. I am passionate about
+                  learning new technologies and staying updated with the latest
+                  advancements in programming and web development.
+                  <br />I consider myself a dedicated, enthusiastic, and
+                  hard-working web developer, eager to leverage my knowledge and
+                  skills to contribute to innovative projects. With a strong
+                  commitment to delivering high-quality results, I strive to
+                  bring value through my work. I am also known for being honest,
+                  confident, and a team player, with a strong desire to grow
+                  professionally.
                 </p>
               </div>
               <div className="flex ">
@@ -40,7 +50,10 @@ const About = () => {
                 >
                   Contact me
                 </a>
-                <a href="#contact" className="btn btn-md bg-accent hover:bg-secondary-hover transition-all rounded-3xl">
+                <a
+                  href="#contact"
+                  className="btn btn-md bg-accent hover:bg-secondary-hover transition-all rounded-3xl"
+                >
                   GitHub
                 </a>
               </div>

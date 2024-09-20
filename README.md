@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website, where I showcase my expertise as a Frontend Developer. Explore my best works, skill set, and feel free to get in touch with me!
 
-![Nazmul's Portfolio Landing Page](https://i.ibb.co.com/H4dgMYw/nazmuls-portfolio.png)
+![Nazmul's Portfolio Landing Page](https://i.ibb.co.com/Zzbmg06/nazmuls-portfolio-banner.png)
 
 ## 🚀 Live Site
 
@@ -31,5 +31,5 @@ For a detailed view of my skills and expertise, visit the [skills section](https
 
 Feel free to reach out if you'd like to collaborate or have any questions!
 
-- **Email**: nazmul@example.com
-- **LinkedIn**: [Nazmul Hoque](https://linkedin.com/in/nazmulhoque)
+- **Email**: sujon686500@gmail.com
+- **LinkedIn**: [Nazmul Hoque](https://www.linkedin.com/in/nazmul-sujon/)
