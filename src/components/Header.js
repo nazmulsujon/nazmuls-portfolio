@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 // import components
-import Logo from "../assets/img/logo.svg";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "./Socials";
