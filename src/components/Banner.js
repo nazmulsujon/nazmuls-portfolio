@@ -33,7 +33,8 @@ const Banner = () => {
                     "",
                     "Web Developer",
                     "React Developer",
-                    "Javascript Developer",
+                    "Next.js Developer",
+                    "Typescript Developer",
                     "Self Believer",
                   ]}
                   loop={20}
@@ -67,7 +68,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="lg:flex flex-1 h-full pt-16 w-full md:w-1/2 justify-center">
-        <img src={developerImg} alt="developerImg" className="rounded-full " />
+        <img src={developerImg} alt="developerImg" className="" />
       </div>
     </section>
   );
