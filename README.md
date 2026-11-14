@@ -26,7 +26,7 @@ yarn start      # serve the production build
 - `components/`: page sections (Hero, Proof, Services, CaseStudy, Work, Skills, Process, About, Faq, Contact).
 - `app/layout.tsx`: metadata, Open Graph, and JSON-LD schema (WebSite, Person, ProfessionalService, FAQPage).
 - `app/sitemap.ts`, `app/robots.ts`, `app/opengraph-image.tsx`, `public/llms.txt`: search and AI crawler files.
-- `public/case-studies/`: Google Search Console screenshots. Keep the client domain and name out of these images.
+- `public/case-studies/`: Google Search Console screenshots. These images are cropped to the chart only (no browser header, account or property name).
 
 ## Contact form
 

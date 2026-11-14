@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     "AEO",
     "GEO",
     "local SEO",
+    "Arabic SEO",
     "Google Ads",
     "Meta Ads",
     "freelance web developer",

@@ -31,7 +31,7 @@ export const services = [
   {
     title: "Next.js websites",
     text: "Fast, mobile-first, server-rendered websites built with Next.js, React and TypeScript, ready to be crawled and ready to convert.",
-    points: ["Core Web Vitals focused", "Clean, scalable code", "Multilingual when you need it"],
+    points: ["Core Web Vitals focused", "Clean, scalable code", "RTL and Arabic-ready builds"],
   },
   {
     title: "WordPress development",
@@ -62,11 +62,13 @@ export const services = [
 
 export const caseStudy = {
   tag: "Case study",
-  title: "A local business website: 7x more organic clicks, no ads",
+  title: "Arabic local SEO: 7x more organic clicks, no ads",
   intro:
-    "A local service business with a brand-new website and almost no search visibility. The goal: get found by nearby customers on Google, without paying for ads.",
+    "dammamusedfurniture.com buys used furniture, air conditioners and appliances in Dammam, Khobar, Qatif and Jubail. It started with a brand-new website and almost no search visibility. The goal: get found by nearby customers on Google, without paying for ads.",
+  liveUrl: "https://www.dammamusedfurniture.com/",
+  liveLabel: "Visit dammamusedfurniture.com",
   did: [
-    "Built a fast, mobile-first, multilingual website with Next.js and Tailwind CSS.",
+    "Built a fast, mobile-first Arabic (RTL) website with Next.js and Tailwind CSS.",
     "Mapped keywords to each service page, targeting the searches customers actually make.",
     "Optimized page content, titles, headings and internal links, one page at a time.",
     "Ran a local SEO strategy and tracked progress in Google Search Console.",
@@ -80,10 +82,38 @@ export const caseStudy = {
     { value: "8.98K → 105K", label: "impressions, same 3 months a year apart" },
     { value: "100%", label: "organic. No paid ads" },
   ],
-  note: "Client name and domain withheld for privacy. Screenshots are from Google Search Console. Comparison period: Feb-May 2026 vs the same period in 2025.",
+  note: "Screenshots are from Google Search Console. Comparison period: Feb-May 2026 vs the same period in 2025.",
 };
 
 export const projects = [
+  {
+    name: "StayEase",
+    kind: "Hotel booking website",
+    text: "A boutique hotel website with room search by dates and guests, a rooms listing with filters, and user accounts.",
+    image: "/projects/stayease.png",
+    tech: ["Next.js", "Responsive UI"],
+    live: "https://stayease-project.vercel.app/",
+    code: "",
+  },
+  {
+    name: "Dammam Used Furniture",
+    kind: "Arabic local SEO website",
+    text: "A fast Arabic (RTL) website for a used furniture and appliance buyer, built with Next.js and optimized for local search in Dammam, Khobar, Qatif and Jubail. See the case study above for the Search Console results.",
+    image: "/projects/dammam-used-furniture.png",
+    tech: ["Next.js", "Tailwind CSS", "Shadcn UI", "Framer Motion", "Arabic RTL", "Local SEO", "LocalBusiness schema"],
+    live: "https://www.dammamusedfurniture.com/",
+    code: "",
+    featured: true,
+  },
+  {
+    name: "Horizon Travels",
+    kind: "Travel agency website",
+    text: "A travel agency website with tour packages, destinations, travel services (air tickets, hotels, visa, Umrah and Hajj), client testimonials, an FAQ, and WhatsApp and free-quote calls to action.",
+    image: "/projects/horizon-travels.png",
+    tech: ["Next.js", "Responsive UI"],
+    live: "https://horizon-travelss.vercel.app/",
+    code: "",
+  },
   {
     name: "Outeq",
     kind: "E-commerce platform",

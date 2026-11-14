@@ -11,11 +11,12 @@
 - Google Ads and Meta Ads: campaign setup, conversion tracking, landing pages.
 
 ## Proof
-- Local business website built and optimized by Nazmul Hoque: 7.21K organic clicks and 415K impressions in 12 months, average position 9.8 (Google Search Console).
-- Same site, Feb-May 2026 vs the same period in 2025: clicks 232 to 1.64K (about 7x), impressions 8.98K to 105K (about 11.7x). 100% organic, no paid ads. Client name and domain withheld for privacy.
+- dammamusedfurniture.com (Arabic RTL local business website built and optimized by Nazmul Hoque): 7.21K organic clicks and 415K impressions in 12 months, average position 9.8 (Google Search Console).
+- Same site, Feb-May 2026 vs the same period in 2025: clicks 232 to 1.64K (about 7x), impressions 8.98K to 105K (about 11.7x). 100% organic, no paid ads.
 
 ## Links
 - Portfolio: https://nazmuls-portfolio.vercel.app
 - LinkedIn: https://www.linkedin.com/in/nazmul-sujon/
 - GitHub: https://github.com/nazmulsujon
+- Selected work: dammamusedfurniture.com (Arabic local SEO), Horizon Travels travel agency site (https://horizon-travelss.vercel.app), StayEase hotel booking site (https://stayease-project.vercel.app), Outeq e-commerce.
 - Contact: webnazmul2001@gmail.com

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Check } from "lucide-react";
+import { ArrowUpRight, Check } from "lucide-react";
 import { caseStudy } from "@/lib/site";
 
 export default function CaseStudy() {
@@ -9,6 +9,9 @@ export default function CaseStudy() {
         <span className="eyebrow">{caseStudy.tag}</span>
         <h2 className="section-title max-w-3xl">{caseStudy.title}</h2>
         <p className="section-lead">{caseStudy.intro}</p>
+        <a href={caseStudy.liveUrl} target="_blank" rel="noopener noreferrer" className="btn-ghost mt-6">
+          {caseStudy.liveLabel} <ArrowUpRight size={14} />
+        </a>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
