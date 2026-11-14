@@ -1,55 +1,26 @@
 {
   "name": "nazmuls-portfolio",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "i": "^0.3.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-particles": "^2.6.0",
-    "react-photo-view": "^1.2.3",
-    "react-reveal": "^1.2.2",
-    "react-router-dom": "^6.4.5",
-    "react-scripts": "5.0.0",
-    "react-simple-typewriter": "^5.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@heroicons/react": "^1.0.6",
-    "autoprefixer": "^10.4.2",
-    "framer-motion": "^6.2.8",
-    "postcss": "^8.4.8",
-    "react-icons": "^4.3.1",
-    "react-intersection-observer": "^8.33.1",
-    "react-scroll": "^1.8.6",
-    "swiper": "^8.0.7",
-    "tailwindcss": "^3.0.23"
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.0"
   }
 }

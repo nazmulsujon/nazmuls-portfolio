@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-ink font-sans text-body antialiased;
+    background-image:
+      radial-gradient(60rem 30rem at 85% -10%, rgba(66, 133, 244, 0.18), transparent 60%),
+      radial-gradient(40rem 24rem at 0% 10%, rgba(56, 189, 248, 0.1), transparent 60%);
+    background-repeat: no-repeat;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-white;
+  }
+  ::selection {
+    background: rgba(56, 189, 248, 0.35);
+  }
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-sky;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5 md:px-8;
+  }
+  .section {
+    @apply py-16 md:py-24;
+  }
+  .eyebrow {
+    @apply mb-3 inline-block text-xs font-semibold uppercase tracking-[0.2em] text-sky;
+  }
+  .section-title {
+    @apply text-3xl font-bold leading-tight md:text-4xl;
+  }
+  .section-lead {
+    @apply mt-4 max-w-2xl text-base text-muted md:text-lg;
+  }
+  .btn {
+    @apply inline-flex h-12 items-center justify-center gap-2 rounded-full px-6 text-sm font-semibold transition-all duration-200;
+  }
+  .btn-primary {
+    @apply btn bg-sky text-ink hover:bg-white hover:shadow-glow;
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-white/5 text-white hover:border-sky/60 hover:bg-white/10;
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-card/70 p-6 backdrop-blur transition-colors duration-200;
+  }
+  .card-hover {
+    @apply hover:border-sky/40 hover:bg-card;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-line bg-white/5 px-3 py-1 text-xs font-medium text-body;
+  }
+  .input {
+    @apply h-12 w-full rounded-xl border border-line bg-surface px-4 text-sm text-white placeholder:text-muted/70 focus:border-sky focus:outline-none;
+  }
+  .textarea {
+    @apply min-h-[150px] w-full resize-y rounded-xl border border-line bg-surface p-4 text-sm text-white placeholder:text-muted/70 focus:border-sky focus:outline-none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,21 @@
+# Nazmul Hoque
+
+> AI-powered web developer and SEO specialist based in Dhaka, Bangladesh. I build fast Next.js and WordPress websites and run SEO, AEO (answer engine optimization), GEO (generative engine optimization), Google Ads and Meta Ads for local businesses and growing brands. I work with clients worldwide.
+
+## Services
+- Next.js websites: fast, mobile-first, server-rendered sites built with Next.js, React and TypeScript.
+- WordPress development: custom themes, Elementor or Gutenberg builds, speed optimization, WooCommerce stores.
+- SEO: technical, on-page and local SEO for any website (Next.js, WordPress or custom code).
+- AEO: content structured for featured snippets and voice answers.
+- GEO: structured data and clear content that AI tools such as ChatGPT, Gemini and Perplexity can understand and cite.
+- Google Ads and Meta Ads: campaign setup, conversion tracking, landing pages.
+
+## Proof
+- Local business website built and optimized by Nazmul Hoque: 7.21K organic clicks and 415K impressions in 12 months, average position 9.8 (Google Search Console).
+- Same site, Feb-May 2026 vs the same period in 2025: clicks 232 to 1.64K (about 7x), impressions 8.98K to 105K (about 11.7x). 100% organic, no paid ads. Client name and domain withheld for privacy.
+
+## Links
+- Portfolio: https://nazmuls-portfolio.vercel.app
+- LinkedIn: https://www.linkedin.com/in/nazmul-sujon/
+- GitHub: https://github.com/nazmulsujon
+- Contact: webnazmul2001@gmail.com

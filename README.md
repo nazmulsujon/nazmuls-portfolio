@@ -1,35 +1,33 @@
-# Nazmul Hoque's Portfolio
+# Nazmul Hoque | Portfolio
 
-Welcome to my portfolio website, where I showcase my expertise as a Frontend Developer. Explore my best works, skill set, and feel free to get in touch with me!
+Portfolio of Nazmul Hoque, an AI-powered web developer (Next.js and WordPress) and SEO specialist.
+Live site: [nazmuls-portfolio.vercel.app](https://nazmuls-portfolio.vercel.app)
 
-![Nazmul's Portfolio Landing Page](https://i.ibb.co.com/Zzbmg06/nazmuls-portfolio-banner.png)
+## Stack
 
-## 🚀 Live Site
+- Next.js 15 (App Router), React 19, TypeScript
+- Tailwind CSS 3
+- `next/font` (Inter, Sora) and `next/image`
+- Static pages, deployed on Vercel
 
-You can visit the live portfolio at: [nazmuls-portfolio.vercel.app](https://nazmuls-portfolio.vercel.app)
+## Run locally
 
-## 💼 Best Works
+```bash
+yarn install
+yarn dev        # http://localhost:3000
+yarn lint       # type-check
+yarn build      # production build
+yarn start      # serve the production build
+```
 
-In my portfolio, I showcase a selection of my most impactful projects. These projects highlight my skills in modern web development, including:
+## Where things live
 
-- **Frontend Technologies**: React.js, Next.js, JavaScript, TypeScript
-- **UI - Frameworks and Libraries**: React Bootstrap, Tailwind CSS, Material-UI (MUI), ShadCN, DaisyUI etc
-- **Backend & APIs**: Node.js, Express.js, MongoDB, Rest API
+- `lib/site.ts`: all content (services, case study, projects, skills, FAQ, experience, contact details). Edit this file to change the copy.
+- `components/`: page sections (Hero, Proof, Services, CaseStudy, Work, Skills, Process, About, Faq, Contact).
+- `app/layout.tsx`: metadata, Open Graph, and JSON-LD schema (WebSite, Person, ProfessionalService, FAQPage).
+- `app/sitemap.ts`, `app/robots.ts`, `app/opengraph-image.tsx`, `public/llms.txt`: search and AI crawler files.
+- `public/case-studies/`: Google Search Console screenshots. Keep the client domain and name out of these images.
 
-## 🛠️ Skill Set
+## Contact form
 
-Here's an overview of the key skills I possess:
-
-- **HTML5 & CSS3**: Building responsive and accessible web pages
-- **JavaScript & TypeScript**: Developing dynamic, scalable applications
-- **React.js & Next.js**: Crafting high-performance user interfaces
-- **Version Control**: Git and GitHub for efficient collaboration
-
-For a detailed view of my skills and expertise, visit the [skills section](https://nazmuls-portfolio.vercel.app/#skills) of my portfolio.
-
-## 📬 Contact Me
-
-Feel free to reach out if you'd like to collaborate or have any questions!
-
-- **Email**: sujon686500@gmail.com
-- **LinkedIn**: [Nazmul Hoque](https://www.linkedin.com/in/nazmul-sujon/)
+The form posts to [FormSubmit](https://formsubmit.co). The first submission sends an activation email to the address in `lib/site.ts`. Confirm it once and the form works.
